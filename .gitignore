@@ -1,21 +1,58 @@
 # Dependencias
 node_modules/
+jspm_packages/
+
+# Entorno, credenciales y secretos
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.cert
 
 # Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 *.log
 
-# Entorno y credenciales
-.env
-.env.*
-*.local
-
-# Archivos del sistema
+# Archivos del sistema operativo
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
+*~
 
-# Scripts locales o de prueba
+# Editores e IDEs
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Cobertura y testing
+coverage/
+.nyc_output/
+
+# Bases de datos locales
+*.sqlite
+*.sqlite3
+*.db
+
+# Scripts y utilidades locales o de prueba
 *_test_local.js
 *anki*
+actualizar_tarjeta.js
+forget.js
+inspeccionar.js
+reset_anki.js
+subir_tarjetas.js
