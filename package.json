@@ -1,0 +1,11 @@
+{
+  "name": "clase-http-identidad-jwt",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Programación IV · UTN FRRe · Semántica HTTP, identidad federada y JWT",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "lab": "node --test --test-reporter=spec laboratorio/pruebas.test.js"
+  },
+  "dependencies": { "express": "^5.1.0" }
+}
